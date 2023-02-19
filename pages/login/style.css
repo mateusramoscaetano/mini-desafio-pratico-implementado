@@ -1,0 +1,107 @@
+main {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.div-img {
+    width: 40%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 475px;
+
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+strong {
+    margin-bottom: 32px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+input {
+    width: 476px;
+    height: 51px;
+    margin-bottom: 16px;
+}
+
+.validation {
+    margin-bottom: 0;
+
+    font-size: 13px;
+    font-weight: 400;
+    color: red;
+
+}
+
+.login-button {
+    width: 475px;
+    height: 50px;
+
+    margin-top: 72px;
+    border-radius: 8px;
+    border: none;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    color: #ffffff;
+    background: #04C45C;
+
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #006a31;
+}
+
+
+
+.sign-up-main {
+    margin-top: 96px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+    text-align: center;
+}
+
+.sign-up-main button {
+    border: none;
+    color: #1972A8;
+
+    cursor: pointer;
+}
+
+.sign-up-main button:hover {
+    color: #155e8c;
+}

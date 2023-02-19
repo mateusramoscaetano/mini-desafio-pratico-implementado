@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página principal</title>
+  <link rel="stylesheet" href="../../css/global.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      KONTACTS
+    </h1>
+
+    <button class="logout-button"><img src="./assets/Vector.png" alt="logout-icon"></button>
+  </header>
+
+  <main>
+
+    <div class="div-add-btn" ><button id="add" class="add-contact text">ADICIONAR</button></div>
+
+    <div class="box-class text principal">
+      <div class="name-topic topic">
+        <h3>Nome</h3>
+      </div>
+      <div class=" topic">
+        <h3>Email</h3>
+      </div>
+      <div class=" topic">
+        <h3>Telefone</h3>
+      </div>
+    </div>
+
+
+
+  </main>
+  <div id="modal-add-page" class="modal-add">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close-add">
+          <div><img class="close-add" src="./assets/Vector (1).png" alt="x-icon"></div>
+        </div>
+      </div>
+
+      <form class="form-add">
+        <h2 class="text">Novo Contato</h2>
+
+        <input class="input-name" type="text" placeholder="Nome">
+        <div class="error-message name-error"></div>
+
+        <input class="input-email" type="email" placeholder="E-mail">
+
+      <div class="error-message email-error"></div>
+
+        <input class="input-phone" type="tel" placeholder="Telefone">
+        <div class="error-message phone-error"></div>
+
+
+
+        <div><button class="medium-button add-number">ADICIONAR</button></div>
+        <div><button type="reset" class="medium-button clear">LIMPAR</button></div>
+
+      </form>
+    </div>
+
+  </div>
+
+  <div id="modal-delete-page" class="modal-delete">
+
+    <div class="modal-delete-content">
+
+      <div class="modal-header">
+        <div class="close-delete"><img class="close-add" src="./assets/Vector (1).png" alt="x-icon"></div>
+      </div>
+
+      <form class="form-del">
+        <h2 class="text">Confirma a exclusão?</h2>
+
+        <div class="do-u-wish"><strong class="text">Deseja excluir o contato ?</strong></div>
+
+        <div><button type="button" class="medium-button confirm-delete-button">EXCLUIR</button></div>
+        <div><button type="button" class="medium-button esc">CANCELAR</button></div>
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="../../js/api.js"></script>
+  <script text="text/javascript" src="/js/script.js"></script>
+
+
+</body>
+
+</html>

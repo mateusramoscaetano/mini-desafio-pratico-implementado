@@ -1,0 +1,297 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    width: 100vw;
+    height: 70px;
+    background-color: #134563;
+}
+
+header h1 {
+
+    font-family: Rokkitt;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+}
+
+.logout-button {
+    position: absolute;
+    right: 20px;
+
+    width: 26px;
+    height: 26px;
+
+    border: none;
+    background-color: #134563;
+
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    width: 100%;
+    height: 100%;
+
+    padding: 102px 240px;
+}
+
+.add-contact {
+    width: 235px;
+    height: 51px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+
+    color: #ffffff;
+    background: #04C45C;
+    border-radius: 8px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.add-contact:hover {
+    background: #006a31;
+}
+
+.div-add-btn {
+    margin-bottom: 32px;
+    width: 956px;
+}
+
+.box-class {
+    display: flex;
+    align-items: center;
+
+    width: 956px;
+    height: 46px;
+
+
+}
+
+.box-class h3 {
+    height: 14px;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+
+    text-align: left;
+
+    color: #1c1414;
+
+}
+
+.principal {
+    margin-bottom: 24px;
+
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+
+    width: 291px;
+    height: 46px;
+
+
+}
+
+.name-topic {
+    margin-left: 32px;
+}
+
+.validation {
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    text-align: center;
+}
+
+span {
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    white-space: nowrap;
+
+    text-align: left;
+
+    color: rgba(28, 20, 20, 0.79);
+}
+
+.delete {
+    width: 14px;
+    height: 14px;
+
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.delete img {
+    width: 13.85px;
+    height: 13.86px;
+}
+
+.modal-add {
+    display: none;
+    position: fixed;
+    top: 117px;
+    right: 40%;
+
+    width: 476px;
+    height: 563px;
+
+    background: #FFFDFD;
+    border-radius: 8px;
+
+    border: 1px solid rgba(143, 141, 141, 0.491);
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-bottom: 16px;
+}
+
+.close-add {
+    width: 16px;
+    height: 16px;
+
+    margin-right: 24px;
+    margin-top: 24px;
+
+
+    color: #968B8B;
+
+    cursor: pointer;
+}
+
+.modal-content h2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 40px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+input {
+    width: 364px;
+    height: 50px;
+    margin-bottom: 16px;
+    margin-left: 56px;
+}
+
+.add-number {
+    margin-top: 56px;
+
+    color: #ffffff;
+    background: #04C45C;
+}
+
+.add-number:hover {
+    background: #006a31;
+}
+
+.error-message {
+    margin-left: 55px;
+    font-size: 13px;
+    color: rgba(251, 6, 22);
+}
+
+.clear {
+    color: #ffffff;
+    background-color: rgba(251, 6, 21, 0.65);
+}
+
+.clear:hover {
+    background-color: rgba(109, 0, 7, 0.833);
+}
+
+.modal-delete {
+    display: none;
+    position: fixed;
+    top: 250px;
+    right: 40%;
+
+    width: 476px;
+    height: 319px;
+
+    background: #FFFDFD;
+    border-radius: 8px;
+
+    border: 1px solid rgba(143, 141, 141, 0.491);
+}
+
+.modal-delete-content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 24px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.do-u-wish {
+    display: flex;
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+.confirm-delete-button {
+    margin-top: 32px;
+
+    color: #ffffff;
+    background: #04C45C;
+}
+
+.confirm-delete-button:hover {
+    background: #006a31;
+}
+
+.esc {
+    color: #ffffff;
+    background-color: rgba(251, 6, 21, 0.65);
+}
+
+.esc:hover {
+    background-color: rgba(109, 0, 7, 0.833);
+}
