@@ -38,9 +38,9 @@ async function registerUser() {
         });
 
         console.log()
-        // if (response.status === 200) {
-        //     window.location.href = '../login/index.html'
-        // }
+         if (response.status === 200) {
+             window.location.href = '../login/index.html'
+         }
     } catch (error) {
         console.log(error.response.data)
     }
